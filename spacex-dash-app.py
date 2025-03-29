@@ -1,6 +1,7 @@
 # Import required libraries
 import pandas as pd
 import numpy as np
+import dash
 from dash import html
 from dash import dcc
 from dash.dependencies import Input, Output
