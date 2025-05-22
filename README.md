@@ -88,7 +88,8 @@ The interactive dashboard allows users to:
 - Adjust payload mass range
 - Explore launch success by orbit and booster version
 - View trends with pie charts and scatter plots
-
+- For example the result if you select all sites is included in the repository as success_rate_per_launchsite.
+  
 To run locally:
 ```bash
 python spacex-dash-app.py
