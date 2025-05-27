@@ -1,16 +1,12 @@
-# 🚀 SpaceX Falcon 9 Landing Prediction
+SpaceX Falcon 9 Landing Prediction
 
 This project was developed as part of the IBM Data Science Professional Certificate Capstone. It focuses on predicting the successful landing of Falcon 9 first-stage boosters using historical SpaceX data. Accurate landing predictions can help SpaceX optimize launch planning and cost efficiency.
 
----
-
-## 📌 Problem Statement
+Problem Statement
 
 SpaceX's ability to reuse Falcon 9 rocket boosters depends on successful landings. This project aims to build machine learning models that can predict the likelihood of a successful first-stage landing based on launch data, payload mass, orbit type, and other variables.
 
----
-
-## 🧠 Project Workflow
+Project Workflow
 
 This project follows the complete data science lifecycle:
 
@@ -37,25 +33,24 @@ This project follows the complete data science lifecycle:
 
 ---
 
-## 📂 Project Structure
+Project Structure
 
 Capstone-IBM-Data-Sci/
-│
-├── data/ # Cleaned/processed datasets
-├── jupyter-labs-spacex-data-collection-api.ipynb
-├── jupyter-labs-webscraping.ipynb
-├── labs-jupyter-spacex-data-wrangling.ipynb
-├── edadataviz.ipynb
-├── jupyter-labs-eda-sql.ipynb
-├── lab-jupyter-launch-site-location.ipynb
-├── SpaceX_Machine_Learning_Prediction_Part_5.ipynb
-├── spacex-dash-app.py # Dashboard code
-└── README.md
+data/ # Cleaned/processed datasets
+jupyter-labs-spacex-data-collection-api.ipynb
+jupyter-labs-webscraping.ipynb
+labs-jupyter-spacex-data-wrangling.ipynb
+edadataviz.ipynb
+jupyter-labs-eda-sql.ipynb
+lab-jupyter-launch-site-location.ipynb
+SpaceX_Machine_Learning_Prediction_Part_5.ipynb
+spacex-dash-app.py # Dashboard code
+README.md
 
 
 ---
 
-## 🧰 Tools & Technologies Used
+Tools & Technologies Used
 
 - **Languages:** Python, SQL
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Plotly, Scikit-learn, Dash, BeautifulSoup, Folium
@@ -63,7 +58,7 @@ Capstone-IBM-Data-Sci/
 
 ---
 
-## 🔍 Machine Learning Models
+Machine Learning Models
 
 Models trained and evaluated:
 
@@ -72,16 +67,7 @@ Models trained and evaluated:
 - Support Vector Machine (SVM)
 - Random Forest
 
-### 🏆 Best Model Performance:
-- *[Insert model name here, e.g., Random Forest]*  
-- **Accuracy:** XX%  
-- **Precision:** XX%  
-- **Recall:** XX%  
-- **F1 Score:** XX%
-
----
-
-## 📊 Dashboard Features
+Dashboard Features
 
 The interactive dashboard allows users to:
 - View launch outcomes by site
@@ -94,7 +80,7 @@ To run locally:
 ```bash
 python spacex-dash-app.py
 
-📈 Key Insights
+Key Insights
 GTO launches have lower success rates than LEO.
 
 Success rates are higher at certain launch sites.
@@ -103,7 +89,7 @@ Payload mass influences landing success probability.
 
 Certain booster versions are more reliable than others.
 
-▶️ How to Run This Project
+How to Run This Project
 Clone the repository:
 git clone https://github.com/swiftyis1/Capstone-IBM-Data-Sci.git
 cd Capstone-IBM-Data-Sci
@@ -112,12 +98,12 @@ pip install -r requirements.txt
 Launch the dashboard:
 python spacex-dash-app.py
 
-✍️ Author
+Author
 David Swift
 IBM Data Science Professional Certificate Graduate
 GitHub: @swiftyis1
 Email: davidswift0920@gmail.com
 
-📄 License
+License
 This project is open source and available under the MIT License.
 
